@@ -48,3 +48,4 @@ const inputChange = (event) => {
 }
 
 document.getElementById("contenedor1").addEventListener('keydown', inputChange)
+document.getElementById("contenedor2").addEventListener('keydown', inputChange)
