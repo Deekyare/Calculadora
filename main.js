@@ -43,7 +43,6 @@ const inputChange = (event) => {
 
     // Si la tecla no es un numero y no es la tecla de borrar y no es una flechita, no insertar
     if (isNaN(Number(event.key)) && event.key !== 'Backspace' && !event.key.includes('Arrow')) {
-        console.log('Tecla invalida');
         event.preventDefault();
     }
 }
