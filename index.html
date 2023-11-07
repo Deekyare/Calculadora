@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <main id="claculadora-main" class="calculadora mt-5 d-inline-block">
+      <p class="m-3 d-flex justify-content-start">Calculadora</p>
+      <div class="m-3 d-flex d-inline-flex">
+        <!-- Input1 -->
+        <input type="text" id="contenedor1" class="contenedor" placeholder="Ingrese un valor" onchange="inputChange"/>
+        <!-- Input2 -->
+        <input type="text" id="contenedor2" class="contenedor" placeholder="Ingrese un valor" />
+        <!-- Contenedor Resultado -->
+        <input type="text" id="contenedor-resultado" class="contenedor" readonly/>
+      </div>
+      <!-- Botones -->
+      <div class="m-3">
+        <button type="button" id="suma" class="btn btn-secondary" operacion="+" > + </button>
+        <button type="button" id="resta" class="btn btn-secondary" operacion="-" >-</button>
+        <button type="button" id="multiplicar" class="btn btn-secondary" operacion="*" >*</button>
+        <button type="button" id="dividir" class="btn btn-secondary" operacion="/" >/</button>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+body {
+  font-family: monospace;
+  text-align: center;
+}
+p{
+    color: aquamarine;
+    font-family: monospace;
+  font-weight: bold;
+}
+.contenedor {
+  border-radius: 15px;
+  height: 45px;
+  text-align: right;
+  background-color: #385887;
+    color: white;
+    font-weight: bolder;
+  
+}
+.calculadora {
+  background-color: currentColor;
+}
+
+button{
+    cursor: pointer;
+  font-weight: bold;
+  
+}
